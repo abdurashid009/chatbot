@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 shadow-sm px-4">
       <div className="flex w-full items-center justify-between">
         <Link to="/">
-          <h2 className="font-bold text-xl">My App</h2>
+          <h2 className="font-bold text-xl">Mars 2616</h2>
         </Link>
         <div className="flex items-center gap-4">
           <div className="dropdown">
