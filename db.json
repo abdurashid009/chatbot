@@ -14,6 +14,16 @@
       "username": "madina",
       "role": "user",
       "id": 3
+    },
+    {
+      "username": "admin",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "username": "madina",
+      "role": "user",
+      "id": 5
     }
   ],
   "messages": [
@@ -65,6 +75,102 @@
       "text": "vrvrvrvrvrrvrvrvrvrvrvrvrvrvrrvrvr",
       "timestamp": "2025-09-21T04:16:36.022Z",
       "id": 7
+    },
+    {
+      "from": "admin",
+      "to": "madina",
+      "text": "salom",
+      "timestamp": "2025-09-21T05:11:28.103Z",
+      "id": 8
+    },
+    {
+      "from": "admin",
+      "to": "@prodev009",
+      "text": "salom",
+      "timestamp": "2025-09-21T05:12:23.387Z",
+      "id": 9
+    },
+    {
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "salom",
+      "timestamp": "2025-09-21T05:12:44.695Z",
+      "id": 10
+    },
+    {
+      "from": "admin",
+      "to": "madina",
+      "text": "aaaaaaa",
+      "timestamp": "2025-09-21T06:12:39.052Z",
+      "id": 11
+    },
+    {
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan",
+      "timestamp": "2025-09-21T06:13:23.478Z",
+      "id": 12
+    },
+    {
+      "id": 1758438250274,
+      "from": "madina",
+      "text": "salom qachon korishib olamiz",
+      "timestamp": "2025-09-21T07:04:10.274Z",
+      "announceId": 1758437644706
+    }
+  ],
+  "announces": [
+    {
+      "id": 1758437644706,
+      "title": "telefon",
+      "description": "yunusobod",
+      "type": "found",
+      "username": "admin",
+      "image": null,
+      "location": [
+        41.3667688,
+        69.2867597
+      ],
+      "timestamp": "2025-09-21T06:54:04.706Z"
+    },
+    {
+      "id": 1758437966760,
+      "title": "papka",
+      "description": "keles",
+      "type": "found",
+      "username": "admin",
+      "image": null,
+      "location": [
+        41.3667688,
+        69.2867597
+      ],
+      "timestamp": "2025-09-21T06:59:26.760Z"
+    },
+    {
+      "id": 1758438182306,
+      "title": "soat",
+      "description": "qorasuv",
+      "type": "found",
+      "username": "admin",
+      "image": null,
+      "location": [
+        41.3038982,
+        69.3402572
+      ],
+      "timestamp": "2025-09-21T07:03:02.306Z"
+    },
+    {
+      "id": 1758438358068,
+      "title": "fleshka",
+      "description": "zarafshon",
+      "type": "found",
+      "username": "admin",
+      "image": null,
+      "location": [
+        41.3038982,
+        69.3402572
+      ],
+      "timestamp": "2025-09-21T07:05:58.068Z"
     }
   ]
 }

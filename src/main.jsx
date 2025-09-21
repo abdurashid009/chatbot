@@ -7,7 +7,8 @@ import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import Service from "./pages/Service.jsx";
-import { AuthProvider } from "./components/AuthContext.jsx"; // 🔑 qo‘shildi
+import { AuthProvider } from "./components/AuthContext.jsx"; // Importni tekshiring
+import "leaflet/dist/leaflet.css";
 
 const router = createBrowserRouter([
   {

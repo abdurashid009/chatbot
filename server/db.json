@@ -347,6 +347,22 @@
       "text": "qalesan ukam",
       "timestamp": "2025-09-21T04:15:30.781Z",
       "source": "admin"
+    },
+    {
+      "id": "adm_1758431564725_5ni9nxuyp",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "salom",
+      "timestamp": "2025-09-21T05:12:44.725Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758435203498_m6893d3yg",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan",
+      "timestamp": "2025-09-21T06:13:23.498Z",
+      "source": "admin"
     }
   ]
 }

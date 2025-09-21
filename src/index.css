@@ -1,5 +1,2 @@
 @import "tailwindcss";
 @plugin "daisyui";
-nav{
-    display: flex;
-}
