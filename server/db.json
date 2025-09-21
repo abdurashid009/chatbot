@@ -1,0 +1,352 @@
+{
+  "users": [
+    {
+      "id": "af58",
+      "username": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "097c",
+      "username": "abdurahmon",
+      "role": "user"
+    },
+    {
+      "id": "d0db",
+      "username": "abdurahmon",
+      "role": "user"
+    },
+    {
+      "id": "6fa0",
+      "username": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "8959",
+      "username": "Davron ",
+      "role": "user"
+    },
+    {
+      "id": "tg_1843628126",
+      "username": "telegram_1843628126",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 1843628126,
+        "firstName": "𝙼.",
+        "lastName": "",
+        "telegramUsername": "hmienm"
+      }
+    },
+    {
+      "id": "tg_7371179871",
+      "username": "telegram_7371179871",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 7371179871,
+        "firstName": "D",
+        "lastName": "",
+        "telegramUsername": "frontdev211"
+      }
+    },
+    {
+      "id": "tg_6193413383",
+      "username": "telegram_6193413383",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 6193413383,
+        "firstName": "ㅤㅤㅤ",
+        "lastName": "",
+        "telegramUsername": "prodev009"
+      }
+    },
+    {
+      "id": "tg_5468849621",
+      "username": "telegram_5468849621",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 5468849621,
+        "firstName": "Alex",
+        "lastName": "",
+        "telegramUsername": ""
+      }
+    },
+    {
+      "id": "tg_6193413383",
+      "username": "@prodev009",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 6193413383,
+        "firstName": "ㅤㅤㅤ",
+        "lastName": "",
+        "telegramUsername": "prodev009"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "11b8",
+      "from": "abdurahmon",
+      "to": "admin",
+      "text": "salom mening ismim abdurahmon",
+      "timestamp": "2025-09-19T02:15:03.514Z"
+    },
+    {
+      "id": "7b66",
+      "from": "admin",
+      "to": "abdurahmon",
+      "text": "mening ismim abdurashid",
+      "timestamp": "2025-09-19T02:22:28.114Z"
+    },
+    {
+      "id": "ba19",
+      "from": "admin",
+      "to": "abdurahmon",
+      "text": "qanday yordam bera olaman",
+      "timestamp": "2025-09-19T02:22:38.602Z"
+    },
+    {
+      "id": "9cb4",
+      "from": "abdurahmon",
+      "to": "admin",
+      "text": "menga daisy ui ni orgata olasizmi?",
+      "timestamp": "2025-09-19T11:39:02.049Z"
+    },
+    {
+      "id": "875a",
+      "from": "Davron ",
+      "to": "admin",
+      "text": "qalesan Abdurashid",
+      "timestamp": "2025-09-19T12:07:21.449Z"
+    },
+    {
+      "from": "admin",
+      "to": "Davron ",
+      "text": "yaxhsi",
+      "timestamp": "2025-09-20T04:17:41.482Z",
+      "id": "xidgi6Q"
+    },
+    {
+      "id": "tgmsg_1758350840415_1refsaxyq",
+      "from": "telegram_1263706374",
+      "to": "admin",
+      "text": "/start",
+      "timestamp": "2025-09-20T06:47:20.415Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758350893619_1ajdptwtp",
+      "from": "admin",
+      "to": "telegram_1263706374",
+      "text": "salom sizga qanay yordam bera olaman",
+      "timestamp": "2025-09-20T06:48:13.619Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1758351331003_i45r6nid3",
+      "from": "telegram_1843628126",
+      "to": "admin",
+      "text": "/start",
+      "timestamp": "2025-09-20T06:55:31.003Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758351380308_x1qb526fz",
+      "from": "admin",
+      "to": "telegram_1843628126",
+      "text": "qale chqbdi",
+      "timestamp": "2025-09-20T06:56:20.308Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758358903765_9vcmul1xw",
+      "from": "admin",
+      "to": "telegram_7371179871",
+      "text": "salom",
+      "timestamp": "2025-09-20T09:01:43.765Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359058754_e7k07flvo",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "salom",
+      "timestamp": "2025-09-20T09:04:18.754Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1758359064639_o5bgewa9m",
+      "from": "telegram_6193413383",
+      "to": "admin",
+      "text": "salom",
+      "timestamp": "2025-09-20T09:04:24.639Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758359076461_cu2a4mbeq",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "yaxshi",
+      "timestamp": "2025-09-20T09:04:36.462Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359098974_pvl56nbgu",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "ya",
+      "timestamp": "2025-09-20T09:04:58.974Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359114207_b55baxh6g",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "ba",
+      "timestamp": "2025-09-20T09:05:14.207Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359333090_v1d2prd3c",
+      "from": "admin",
+      "to": "telegram_7371179871",
+      "text": "nma boldi",
+      "timestamp": "2025-09-20T09:08:53.090Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1758359342733_kph835lmk",
+      "from": "telegram_7371179871",
+      "to": "admin",
+      "text": "Км",
+      "timestamp": "2025-09-20T09:09:02.733Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758359411658_ak3vtgitc",
+      "from": "admin",
+      "to": "telegram_7371179871",
+      "text": "a",
+      "timestamp": "2025-09-20T09:10:11.658Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359539746_afkxpnjlo",
+      "from": "admin",
+      "to": "telegram_7371179871",
+      "text": "a",
+      "timestamp": "2025-09-20T09:12:19.746Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359543767_sz6z87f9q",
+      "from": "admin",
+      "to": "telegram_7371179871",
+      "text": "a",
+      "timestamp": "2025-09-20T09:12:23.767Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359708182_ivgwsv7xn",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "ta",
+      "timestamp": "2025-09-20T09:15:08.182Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359888885_0le3j0jge",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "sa",
+      "timestamp": "2025-09-20T09:18:08.885Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758359919643_h4vf3hy1z",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "ka",
+      "timestamp": "2025-09-20T09:18:39.643Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758360344823_gqtpz4pbm",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "zzz",
+      "timestamp": "2025-09-20T09:25:44.823Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758360505499_x0ehi006y",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "hello",
+      "timestamp": "2025-09-20T09:28:25.499Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1758386122058_h5r2apf9o",
+      "from": "telegram_5468849621",
+      "to": "admin",
+      "text": "/start",
+      "timestamp": "2025-09-20T16:35:22.058Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758386130458_pxpknlsj0",
+      "from": "admin",
+      "to": "telegram_5468849621",
+      "text": "salom",
+      "timestamp": "2025-09-20T16:35:30.458Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758386517189_xxe9zn4by",
+      "from": "admin",
+      "to": "telegram_5468849621",
+      "text": "qalesz doron aka",
+      "timestamp": "2025-09-20T16:41:57.189Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758393451074_jl1hhhqmr",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalaysiz oshnam",
+      "timestamp": "2025-09-20T18:37:31.074Z",
+      "source": "admin"
+    },
+    {
+      "id": "adm_1758427561499_7o7uk7vor",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan ukam",
+      "timestamp": "2025-09-21T04:06:01.499Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1758428031854_ubjfm8pxv",
+      "from": "telegram_5468849621",
+      "to": "admin",
+      "text": "Jvjcv",
+      "timestamp": "2025-09-21T04:13:51.854Z",
+      "source": "telegram"
+    },
+    {
+      "id": "tgmsg_1758428119819_2zeqd8iy2",
+      "from": "telegram_6193413383",
+      "to": "admin",
+      "text": "salom",
+      "timestamp": "2025-09-21T04:15:19.819Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1758428130780_sl1u3axsg",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan ukam",
+      "timestamp": "2025-09-21T04:15:30.781Z",
+      "source": "admin"
+    }
+  ]
+}

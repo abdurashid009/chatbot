@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "username": "aaa",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "username": "admin",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "username": "madina",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "from": "aaa",
+      "to": "admin",
+      "text": "aaaa",
+      "timestamp": "2025-09-20T16:33:03.496Z",
+      "id": 1
+    },
+    {
+      "from": "admin",
+      "to": "telegram_5468849621",
+      "text": "salom",
+      "timestamp": "2025-09-20T16:35:30.383Z",
+      "id": 2
+    },
+    {
+      "from": "admin",
+      "to": "telegram_5468849621",
+      "text": "qalesz doron aka",
+      "timestamp": "2025-09-20T16:41:57.172Z",
+      "id": 3
+    },
+    {
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalaysiz oshnam",
+      "timestamp": "2025-09-20T18:37:30.878Z",
+      "id": 4
+    },
+    {
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan ukam",
+      "timestamp": "2025-09-21T04:06:01.458Z",
+      "id": 5
+    },
+    {
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "qalesan ukam",
+      "timestamp": "2025-09-21T04:15:30.631Z",
+      "id": 6
+    },
+    {
+      "from": "madina",
+      "to": "admin",
+      "text": "vrvrvrvrvrrvrvrvrvrvrvrvrvrvrrvrvr",
+      "timestamp": "2025-09-21T04:16:36.022Z",
+      "id": 7
+    }
+  ]
+}
