@@ -3,27 +3,49 @@
     {
       "username": "aaa",
       "role": "user",
-      "id": 1
+      "id": "1"
     },
     {
       "username": "admin",
       "role": "admin",
-      "id": 2
+      "id": "2"
     },
     {
       "username": "madina",
       "role": "user",
-      "id": 3
+      "id": "3"
     },
     {
       "username": "admin",
       "role": "admin",
-      "id": 4
+      "id": "4"
     },
     {
       "username": "madina",
       "role": "user",
-      "id": 5
+      "id": "5"
+    },
+    {
+      "id": "tg_6193413383",
+      "username": "@prodev009",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 6193413383,
+        "firstName": "ㅤ",
+        "lastName": "",
+        "telegramUsername": "prodev009"
+      }
+    },
+    {
+      "id": "tg_1843628126",
+      "username": "@hmienm",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 1843628126,
+        "firstName": "𝙼.",
+        "lastName": "",
+        "telegramUsername": "hmienm"
+      }
     }
   ],
   "messages": [
@@ -32,87 +54,87 @@
       "to": "admin",
       "text": "aaaa",
       "timestamp": "2025-09-20T16:33:03.496Z",
-      "id": 1
+      "id": "1"
     },
     {
       "from": "admin",
       "to": "telegram_5468849621",
       "text": "salom",
       "timestamp": "2025-09-20T16:35:30.383Z",
-      "id": 2
+      "id": "2"
     },
     {
       "from": "admin",
       "to": "telegram_5468849621",
       "text": "qalesz doron aka",
       "timestamp": "2025-09-20T16:41:57.172Z",
-      "id": 3
+      "id": "3"
     },
     {
       "from": "admin",
       "to": "telegram_6193413383",
       "text": "qalaysiz oshnam",
       "timestamp": "2025-09-20T18:37:30.878Z",
-      "id": 4
+      "id": "4"
     },
     {
       "from": "admin",
       "to": "telegram_6193413383",
       "text": "qalesan ukam",
       "timestamp": "2025-09-21T04:06:01.458Z",
-      "id": 5
+      "id": "5"
     },
     {
       "from": "admin",
       "to": "telegram_6193413383",
       "text": "qalesan ukam",
       "timestamp": "2025-09-21T04:15:30.631Z",
-      "id": 6
+      "id": "6"
     },
     {
       "from": "madina",
       "to": "admin",
       "text": "vrvrvrvrvrrvrvrvrvrvrvrvrvrvrrvrvr",
       "timestamp": "2025-09-21T04:16:36.022Z",
-      "id": 7
+      "id": "7"
     },
     {
       "from": "admin",
       "to": "madina",
       "text": "salom",
       "timestamp": "2025-09-21T05:11:28.103Z",
-      "id": 8
+      "id": "8"
     },
     {
       "from": "admin",
       "to": "@prodev009",
       "text": "salom",
       "timestamp": "2025-09-21T05:12:23.387Z",
-      "id": 9
+      "id": "9"
     },
     {
       "from": "admin",
       "to": "telegram_6193413383",
       "text": "salom",
       "timestamp": "2025-09-21T05:12:44.695Z",
-      "id": 10
+      "id": "10"
     },
     {
       "from": "admin",
       "to": "madina",
       "text": "aaaaaaa",
       "timestamp": "2025-09-21T06:12:39.052Z",
-      "id": 11
+      "id": "11"
     },
     {
       "from": "admin",
       "to": "telegram_6193413383",
       "text": "qalesan",
       "timestamp": "2025-09-21T06:13:23.478Z",
-      "id": 12
+      "id": "12"
     },
     {
-      "id": 1758438250274,
+      "id": "1758438250274",
       "from": "madina",
       "text": "salom qachon korishib olamiz",
       "timestamp": "2025-09-21T07:04:10.274Z",
@@ -123,12 +145,100 @@
       "to": "telegram_6193413383",
       "text": "aaaaaa",
       "timestamp": "2025-09-21T07:24:50.382Z",
-      "id": 1758438250275
+      "id": "1758438250275"
+    },
+    {
+      "id": "tgmsg_1761309819992_bd31pyocz",
+      "from": "@abdurashid0607",
+      "to": "admin",
+      "text": "/start",
+      "timestamp": "2025-10-24T12:43:39.992Z",
+      "source": "telegram"
+    },
+    {
+      "id": "9b27",
+      "from": "admin",
+      "to": "@abdurashid0607",
+      "text": "sacdsbjca'",
+      "timestamp": "2025-10-24T12:43:49.676Z"
+    },
+    {
+      "id": "tgmsg_1761309842680_9rg419foa",
+      "from": "@abdurashid0607",
+      "to": "admin",
+      "text": "cadscdskn;hv",
+      "timestamp": "2025-10-24T12:44:02.680Z",
+      "source": "telegram"
+    },
+    {
+      "id": "tgmsg_1761309892952_89tkkk5dh",
+      "from": "@hmienm",
+      "to": "admin",
+      "text": "/start",
+      "timestamp": "2025-10-24T12:44:52.952Z",
+      "source": "telegram"
+    },
+    {
+      "id": "tgmsg_1761309901494_xn1n4rz1v",
+      "from": "@hmienm",
+      "to": "admin",
+      "text": "yozdm",
+      "timestamp": "2025-10-24T12:45:01.494Z",
+      "source": "telegram"
+    },
+    {
+      "id": "60c0",
+      "from": "admin",
+      "to": "@hmienm",
+      "text": "chunvosmi",
+      "timestamp": "2025-10-24T13:14:54.163Z"
+    },
+    {
+      "id": "22d8",
+      "from": "admin",
+      "to": "@abdurashid0607",
+      "text": "salfsdjbfdsvslfjabjc vih ",
+      "timestamp": "2025-10-24T13:15:16.645Z"
+    },
+    {
+      "id": "4caf",
+      "from": "admin",
+      "to": "@abdurashid0607",
+      "text": "sbvasvjdsjvcsavds",
+      "timestamp": "2025-10-24T13:15:18.552Z"
+    },
+    {
+      "id": "f7b9",
+      "from": "admin",
+      "to": "@abdurashid0607",
+      "text": "aaa",
+      "timestamp": "2025-10-24T13:15:49.066Z"
+    },
+    {
+      "id": "1efb",
+      "from": "admin",
+      "to": "@prodev009",
+      "text": "salom",
+      "timestamp": "2025-10-27T11:57:53.901Z"
+    },
+    {
+      "id": "beb6",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "salom",
+      "timestamp": "2025-10-27T11:58:48.795Z"
+    },
+    {
+      "id": "23b7",
+      "from": "admin",
+      "to": "@abdurashid0607",
+      "text": "vrrrr",
+      "timestamp": "2025-10-27T11:59:10.902Z"
     }
   ],
   "announces": [
     {
-      "id": 1758437644706,
+      "id": "1758437644706",
       "title": "telefon",
       "description": "yunusobod",
       "type": "found",
@@ -141,7 +251,7 @@
       "timestamp": "2025-09-21T06:54:04.706Z"
     },
     {
-      "id": 1758437966760,
+      "id": "1758437966760",
       "title": "papka",
       "description": "keles",
       "type": "found",
@@ -154,7 +264,7 @@
       "timestamp": "2025-09-21T06:59:26.760Z"
     },
     {
-      "id": 1758438182306,
+      "id": "1758438182306",
       "title": "soat",
       "description": "qorasuv",
       "type": "found",
@@ -167,7 +277,7 @@
       "timestamp": "2025-09-21T07:03:02.306Z"
     },
     {
-      "id": 1758438358068,
+      "id": "1758438358068",
       "title": "fleshka",
       "description": "zarafshon",
       "type": "found",

@@ -28,29 +28,29 @@ function writeDB(data) {
 }
 
 // 🔹 Telegram userlarini saqlashfunction saveTelegramUser(chatId, userInfo) {
- function saveTelegramUser(chatId, userInfo) {
-   const db = readDB();
-   const telegramUsername = userInfo.username
-     ? `@${userInfo.username}`
-     : `telegram_${chatId}`;
+function saveTelegramUser(chatId, userInfo) {
+  const db = readDB();
+  const telegramUsername = userInfo.username
+    ? `@${userInfo.username}`
+    : `telegram_${chatId}`;
 
-   if (!db.users.some((u) => u.username === telegramUsername)) {
-     const newUser = {
-       id: `tg_${chatId}`,
-       username: telegramUsername,
-       role: "user",
-       telegramInfo: {
-         chatId,
-         firstName: userInfo.first_name || "Telegram User",
-         lastName: userInfo.last_name || "",
-         telegramUsername: userInfo.username || "",
-       },
-     };
-     db.users.push(newUser);
-     writeDB(db);
-     console.log(`✅ Yangi Telegram user qo'shildi: ${telegramUsername}`);
-   }
- }
+  if (!db.users.some((u) => u.username === telegramUsername)) {
+    const newUser = {
+      id: `tg_${chatId}`,
+      username: telegramUsername,
+      role: "user",
+      telegramInfo: {
+        chatId,
+        firstName: userInfo.first_name || "Telegram User",
+        lastName: userInfo.last_name || "",
+        telegramUsername: userInfo.username || "",
+      },
+    };
+    db.users.push(newUser);
+    writeDB(db);
+    console.log(`✅ Yangi Telegram user qo'shildi: ${telegramUsername}`);
+  }
+}
 
 // 🔹 Botdan kelgan xabarlarni qayta ishlash
 bot.on("message", (msg) => {
@@ -73,7 +73,7 @@ bot.on("message", (msg) => {
     to: "admin",
     text,
     timestamp: new Date().toISOString(),
-    source: "telegram"
+    source: "telegram",
   };
 
   if (!db.messages.some((m) => m.id === newMsg.id)) {
@@ -106,15 +106,16 @@ app.get("/api/users", (req, res) => {
 // 🔹 Admindan Telegram userga xabar yuborish
 app.post("/api/send-message", (req, res) => {
   const { to, text, from } = req.body;
-  
+
   try {
     const db = readDB();
 
     // Agar Telegram user bo'lsa, botga yuborish
     if (to.startsWith("telegram_")) {
       const chatId = to.split("_")[1];
-      
-      bot.sendMessage(chatId, `💬 Admin javobi:\n\n${text}`)
+
+      bot
+        .sendMessage(chatId, `💬 Admin javobi:\n\n${text}`)
         .then(() => {
           console.log(`✅ Telegram ga yuborildi: ${chatId}`);
         })
@@ -130,12 +131,12 @@ app.post("/api/send-message", (req, res) => {
       to,
       text,
       timestamp: new Date().toISOString(),
-      source: "admin"
+      source: "admin",
     };
-    
+
     db.messages.push(newMsg);
     writeDB(db);
-    
+
     res.json({ success: true, message: "Xabar yuborildi" });
   } catch (error) {
     console.error("Xabar yuborishda xato:", error);

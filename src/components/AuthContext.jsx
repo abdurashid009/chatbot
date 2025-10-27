@@ -40,7 +40,9 @@ export function AuthProvider({ children }) {
     if (location) {
       try {
         // Qisqa URL ni to'liq URL ga aylantirish uchun sinash
-        const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(location)}`);
+        const response = await fetch(
+          `https://api.allorigins.win/get?url=${encodeURIComponent(location)}`
+        );
         const data = await response.json();
         const fullUrl = data.contents; // To'liq URL ni olish uchun
 
@@ -50,7 +52,9 @@ export function AuthProvider({ children }) {
         if (match) {
           coordinates = [parseFloat(match[1]), parseFloat(match[2])]; // [lat, lng]
         } else {
-          setError("❌ Noto'g'ri lokatsiya formati! Iltimos, Google Maps URL dan foydalaning.");
+          setError(
+            "❌ Noto'g'ri lokatsiya formati! Iltimos, Google Maps URL dan foydalaning."
+          );
           return;
         }
       } catch (err) {

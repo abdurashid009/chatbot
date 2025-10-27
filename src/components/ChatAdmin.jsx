@@ -38,7 +38,7 @@ const ChatAdmin = () => {
         // 3️⃣ Barcha userlarni birlashtirish va admin userlarni olib tashlash
         const allUsers = [...jsonServerUsers, ...botUsers];
         const nonAdminUsers = allUsers.filter((u) => u.role !== "admin");
-        
+
         // 4️⃣ Duplicate userlarni olib tashlash
         const uniqueUsers = Array.from(
           new Map(nonAdminUsers.map((u) => [u.username, u])).values()
@@ -93,7 +93,9 @@ const ChatAdmin = () => {
         });
 
         // 5️⃣ Vaqt bo'yicha tartiblash
-        const sorted = filtered.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+        const sorted = filtered.sort(
+          (a, b) => new Date(a.timestamp) - new Date(b.timestamp)
+        );
         setMessages(sorted);
       } catch (error) {
         console.error("Xabarlarni olishda xato:", error);
@@ -132,7 +134,7 @@ const ChatAdmin = () => {
           body: JSON.stringify({
             to: selectedUser.username,
             text: input,
-            from: admin.username
+            from: admin.username,
           }),
         });
       }
@@ -147,7 +149,10 @@ const ChatAdmin = () => {
 
   // Barcha ma'lumotlarni tozalash
   const clearAllData = async () => {
-    if (!window.confirm("Haqiqatan ham barcha ma'lumotlarni o'chirmoqchimisiz?")) return;
+    if (
+      !window.confirm("Haqiqatan ham barcha ma'lumotlarni o'chirmoqchimisiz?")
+    )
+      return;
 
     localStorage.clear();
 
@@ -156,7 +161,7 @@ const ChatAdmin = () => {
         fetch(USERS_URL),
         fetch(API_URL),
       ]);
-      
+
       if (usersRes.ok && messagesRes.ok) {
         const usersData = await usersRes.json();
         const messagesData = await messagesRes.json();

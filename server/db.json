@@ -79,6 +79,17 @@
         "lastName": "",
         "telegramUsername": "prodev009"
       }
+    },
+    {
+      "id": "tg_6193413383",
+      "username": "@abdurashid0607",
+      "role": "user",
+      "telegramInfo": {
+        "chatId": 6193413383,
+        "firstName": "ㅤ",
+        "lastName": "",
+        "telegramUsername": "abdurashid0607"
+      }
     }
   ],
   "messages": [
@@ -370,6 +381,22 @@
       "to": "telegram_6193413383",
       "text": "aaaaaa",
       "timestamp": "2025-09-21T07:24:50.401Z",
+      "source": "admin"
+    },
+    {
+      "id": "tgmsg_1761566315330_5h107qd2d",
+      "from": "telegram_6193413383",
+      "to": "admin",
+      "text": "salom",
+      "timestamp": "2025-10-27T11:58:35.330Z",
+      "source": "telegram"
+    },
+    {
+      "id": "adm_1761566328932_beuo8ktbn",
+      "from": "admin",
+      "to": "telegram_6193413383",
+      "text": "salom",
+      "timestamp": "2025-10-27T11:58:48.932Z",
       "source": "admin"
     }
   ]
